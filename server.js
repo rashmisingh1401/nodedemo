@@ -77,6 +77,9 @@ app.get('/', function (req, res) {
    res.render('index.html');
 });
 
+app.get('/pagecount'', function (req, res) {
+   res.render('home.html');
+});
 
 
 // error handling
